@@ -16,5 +16,5 @@
 
 ## Descripción
 
-Just a sample binary tree date structure i made in pandemic.
+Just a sample binary tree data structure i made in pandemic.
 
