@@ -30,18 +30,18 @@ int main()
     cargarArbol(&arbol);
     raiz=arbol->dato;
     mostrarArbolYDatos(arbol, raiz, &div_r);
-    printf("\nCantidad de numeros divisibles por la raiz: %d", div_r);
+    printf("\nCantidad de números divisibles por la raíz: %d", div_r);
 }
 
 void cargarArbol(Treenode **hoja)
 {
     int num;
-    printf("Ingrese un numero: ");
+    printf("Ingrese un número: ");
     scanf("%d", &num);
     while(num!=CORTE)
     {
         crearHoja(&(*hoja), num);
-        printf("Ingrese un numero: ");
+        printf("Ingrese un número: ");
         scanf("%d", &num);
     }
 }
