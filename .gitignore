@@ -6,6 +6,10 @@
 bin/
 obj/
 
+# Excluir archivos binarios y de objetos específicos
+*.exe
+*.o
+
 # Excluir archivos de sistema (Windows, macOS, Linux)
 .DS_Store
 Thumbs.db
