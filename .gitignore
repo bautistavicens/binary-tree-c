@@ -1,0 +1,11 @@
+# Excluir archivos generados por Code::Blocks
+*.layout
+*.depend
+
+# Excluir directorios binarios y de objetos
+bin/
+obj/
+
+# Excluir archivos de sistema (Windows, macOS, Linux)
+.DS_Store
+Thumbs.db
